@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spatulini's Home Childcare</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav-container">
+        <a class="main-nav-logo-text" href="#">Spatulini's Home Childcare</a>
+        <div class="navbar-links">
+          <ul class="main-nav-list">
+            <li>
+              <a class="main-nav-link" href="#daily-schedule">Daily Schedule</a>
+            </li>
+            <li><a class="main-nav-link" href="#about-me">About Me</a></li>
+            <li><a class="main-nav-link" href="#calendar">Calendar</a></li>
+            <li><a class="main-nav-link" href="#forms-map">Forms & Map</a></li>
+            <li>
+              <a class="main-nav-link nav-cta" href="#cta-form"
+                >Schedule A Tour</a
+              >
+            </li>
+          </ul>
+        </div>
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
+      </nav>
+
+      <section class="section-hero">
+        <div class="header-container">
+          <div class="header-container-inner">
+            <h1 class="main-header-text">Your Child's Home Away From Home!</h1>
+            <p class="heading-subtext">
+              A warm and welcoming place for your child to call their own while
+              they're away from home.
+            </p>
+            <a href="#cta-form" class="hero-cta-btn">Schedule A Tour</a>
+            <a href="#program-information" class="learn-more-btn"
+              >Learn More &darr;</a
+            >
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="container program-section" id="program-information">
+        <h2 class="secondary-heading">Program Information</h2>
+
+        <div class="program-information">
+          <div>
+            <h3 class="tertiary-heading">Mission Statement</h3>
+            <p class="paragraph-text">
+              As the owner and operator of Spatulini's Home Childcare, my
+              mission is to provide a safe, nurturing, and stimulating
+              environment for young children to learn and grow. I am dedicated
+              to supporting the physical, emotional, and cognitive development
+              of each child in my care, and to fostering a sense of community
+              and belonging among our families. I strive to create a home away
+              from home where children feel loved and supported, and where they
+              can develop the skills and confidence they need to thrive.
+            </p>
+            <h3 class="tertiary-heading">Child Safety Details</h3>
+            <p class="paragraph-text">
+              At my home daycare, child safety is a top priority. I take several
+              steps to ensure that the children in my care are kept safe and
+              secure at all times. This includes regularly checking the space
+              for potential hazards and taking steps to prevent accidents. I
+              also have safety gates and other barriers in place to prevent
+              children from accessing unsafe areas. In addition, I have an
+              emergency plan in place in case of any unforeseen events. As a
+              provider, I am committed to creating a safe and nurturing
+              environment for the children in my care. I believe that by taking
+              these steps, I can help give parents peace of mind while their
+              children are in my care.
+            </p>
+          </div>
+          <div class="age-information">
+            <h3 class="age-heading">Age Information</h3>
+            <div class="age-row">
+              <div class="age-icon-box">
+                <object data="./img/baby-icon.svg" class="age-icons"></object>
+              </div>
+              <p class="age-text">Infants</p>
+            </div>
+            <div class="age-row">
+              <div class="age-icon-box">
+                <object
+                  data="./img/toddler-icon.svg"
+                  class="age-icons"
+                ></object>
+              </div>
+              <p class="age-text">Toddlers</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container daily-schedule" id="daily-schedule">
+        <div class="div-schedule">
+          <h2 class="secondary-heading">Daily Schedule</h2>
+          <table class="daily-schedule-table">
+            <thead class="table-head">
+              <tr>
+                <th class="table-data time">Time</th>
+                <th class="table-data description">Description</th>
+              </tr>
+            </thead>
+            <tbody class="table-body">
+              <tr>
+                <td class="table-data">7:30 AM - 8:30 AM</td>
+                <td class="table-data">Breakfast</td>
+              </tr>
+              <tr>
+                <td class="table-data">8:30 AM - 9:30 AM</td>
+                <td class="table-data">
+                  Free play (blocks, housekeeping, puzzles, fine motor skills,
+                  learning activites, etc.)
+                </td>
+              </tr>
+              <tr>
+                <td class="table-data">9:30 AM - 10:00 AM</td>
+                <td class="table-data">Wash up and morning snack</td>
+              </tr>
+              <tr>
+                <td class="table-data no-wrap">10:00 AM - 10:30 AM</td>
+                <td class="table-data">
+                  Circle Time (calendar, weather, finger plays, songs, stories,
+                  learning and sharing time)
+                </td>
+              </tr>
+              <tr>
+                <td class="table-data">10:30 AM - 11:30 AM</td>
+                <td class="table-data">
+                  Craft (seasonal projects, theme projects, etc.)
+                </td>
+              </tr>
+              <tr>
+                <td class="table-data">11:30 AM - 12:30 PM</td>
+                <td class="table-data">Free Play (indoor/outdoor)</td>
+              </tr>
+              <tr>
+                <td class="table-data">12:30 PM - 1:00 PM</td>
+                <td class="table-data">Wash up, lunch, conversation</td>
+              </tr>
+              <tr>
+                <td class="table-data">1:00 PM - 3:00 PM</td>
+                <td class="table-data">Nap and/or rest time</td>
+              </tr>
+              <tr>
+                <td class="table-data">3:00 PM - 3:30 PM</td>
+                <td class="table-data">Afternoon snack</td>
+              </tr>
+              <tr>
+                <td class="table-data">3:30 PM - 4:00 PM</td>
+                <td class="table-data">
+                  Wind down activites, read stories, quiet play, clean up,
+                  getting ready for departure
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="container about-me" id="about-me">
+        <div class="div-about-me">
+          <h2 class="secondary-heading">About Me</h2>
+          <div class="about-me-background">
+            <img
+              class="about-me-photo"
+              src="./img/AI Face Daycare-2.jpg"
+              alt="Picture of AI face"
+            />
+            <h3 class="tertiary-heading about-me-heading">Donna Spatulini</h3>
+            <p class="paragraph-text about-me-experience">
+              Welcome to my home daycare! My name is Donna Spatulini and I have
+              been providing high-quality child care services in my home for the
+              past 15 years. I have a passion for helping children learn and
+              grow in a safe and nurturing environment. I understand that
+              choosing the right care for your child is an important decision,
+              and I am dedicated to providing a warm and loving home away from
+              home for your little ones. My daycare offers a structured daily
+              routine with plenty of opportunities for play, learning, and
+              exploration. I believe in open communication and welcome feedback
+              from parents to ensure the best possible experience for your
+              child. Thank you for considering my home daycare for your child's
+              care and early education needs.
+            </p>
+            <div class="center-wrapper">
+              <p class="licensing-number">NY License Number: #12345</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container calendar" id="calendar">
+        <div class="calendar-div">
+          <h2 class="secondary-heading">Calendar</h2>
+          <iframe
+            src="https://embed.styledcalendar.com/#FfxJOWHO2ToiV1awOCzC"
+            title="Styled Calendar"
+            class="styled-calendar-container"
+            style="width: 100%; border: none"
+            data-cy="calendar-embed-iframe"
+          ></iframe>
+          <script
+            async
+            type="module"
+            src="https://embed.styledcalendar.com/assets/parent-window.js"
+          ></script>
+        </div>
+      </section>
+
+      <section class="container map-forms" id="forms-map">
+        <div class="forms">
+          <h2 class="secondary-heading forms-heading">Forms</h2>
+          <div class="form-cards">
+            <div class="form-card">
+              <ion-icon
+                class="form-icon"
+                name="file-tray-full-outline"
+              ></ion-icon>
+              <p class="form-name">Registration Form</p>
+
+              <div class="form-links">
+                <a
+                  target="_blank"
+                  class="form-view-button"
+                  href="./assets/registration-form.pdf"
+                  >View</a
+                >
+                <a
+                  class="form-download-button"
+                  href="./assets/registration-form.docx"
+                  download
+                  >Download</a
+                >
+              </div>
+            </div>
+            <div class="form-card">
+              <ion-icon
+                class="form-icon"
+                name="file-tray-full-outline"
+              ></ion-icon>
+              <p class="form-name">Admission Policy</p>
+              <div class="form-links">
+                <a
+                  target="_blank"
+                  class="form-view-button"
+                  href="./assets/admission-policy.pdf"
+                  >View</a
+                >
+                <a
+                  class="form-download-button"
+                  href="./assets/admission-policy.docx"
+                  download
+                  >Download</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="map">
+          <h2 class="secondary-heading">Map</h2>
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4227.21986433563!2d-76.48606604590583!3d42.40129584780829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d080461ff6eb37%3A0x4db85d97524f18d8!2s23%20Chase%20Ln%2C%20Ithaca%2C%20NY%2014850!5e0!3m2!1sen!2sus!4v1683563170592!5m2!1sen!2sus"
+              width="100%"
+              height="100%"
+              style="border: 4px solid #12b886; border-radius: 9px"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+      <section class="container contact-us" id="cta-form">
+        <div class="full-contact-box">
+          <div class="contact-form">
+            <h2 class="form-heading">Schedule A Tour With Me!</h2>
+            <p class="cta-text">
+              Schedule a visit and let me show you all the ways in which my home
+              daycare provides the perfect fit for your child's growth and
+              development.
+            </p>
+
+            <form class="cta-form">
+              <div>
+                <label for="full-name">Full Name</label>
+                <input
+                  id="full-name"
+                  type="text"
+                  placeholder="Jane Doe"
+                  name="full-name"
+                  required
+                />
+              </div>
+
+              <div>
+                <label for="email">Email Address</label>
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="jane.doe@example.com"
+                  name="email"
+                  required
+                />
+              </div>
+
+              <div>
+                <label for="phone-num">Phone Number</label>
+                <input
+                  id="phone-num"
+                  type="tel"
+                  placeholder="123-456-7890"
+                  name="phone-num"
+                  required
+                />
+              </div>
+
+              <div>
+                <label for="child-age">Child Age</label>
+                <input
+                  id="child-age"
+                  type="text"
+                  placeholder="2 Years Old"
+                  name="child-age"
+                  required
+                />
+              </div>
+
+              <div>
+                <label for="days-needed">Days Needed</label>
+                <input
+                  id="days-needed"
+                  type="text"
+                  placeholder="Monday, Wednesday, Friday"
+                  name="days-needed"
+                  required
+                />
+              </div>
+
+              <div>
+                <label for="select-hours">Hours Needed</label>
+                <select id="select-hours" name="select-hours" required>
+                  <option value="">Please Choose One Option</option>
+                  <option value="full-day">Full Day (7:30 AM - 4 PM)</option>
+                  <option value="first-half-day">
+                    First Half Of Day (7:30 AM - 12 PM)
+                  </option>
+                  <option value="second-half-day">
+                    Second Half Of Day (12 PM - 4 PM)
+                  </option>
+                  <option value="other">Other Hours Needed</option>
+                </select>
+              </div>
+              <button type="submit" class="btn-form">Submit</button>
+            </form>
+          </div>
+          <div class="contact-information">
+            <div class="contact-hours-flex">
+              <div class="contact-information-box">
+                <h2 class="contact-information-heading">Contact Information</h2>
+                <div class="contact-information-text">
+                  <div class="contact-information-line">
+                    <ion-icon
+                      class="contact-information-icon"
+                      name="person-outline"
+                    ></ion-icon>
+                    <p class="paragraph-text">Donna Spatulini</p>
+                  </div>
+                  <div class="contact-information-line">
+                    <ion-icon
+                      class="contact-information-icon"
+                      name="location-outline"
+                    ></ion-icon>
+                    <p class="paragraph-text">
+                      <span class="no-wrap">23 Chase Ln,</span><br />
+                      Ithaca, NY 14850
+                    </p>
+                  </div>
+                  <div class="contact-information-line">
+                    <ion-icon
+                      class="contact-information-icon"
+                      name="call-outline"
+                    ></ion-icon>
+                    <p class="paragraph-text">607-123-4567</p>
+                  </div>
+                  <div class="contact-information-line">
+                    <ion-icon
+                      class="contact-information-icon"
+                      name="mail-outline"
+                    ></ion-icon>
+                    <p class="paragraph-text">dspatulini@gmail.com</p>
+                  </div>
+                </div>
+              </div>
+              <div class="hours-opertation-box">
+                <h2 class="contact-information-heading">Hours Of Operation</h2>
+                <div class="contact-information-text">
+                  <div class="contact-information-line">
+                    <ion-icon
+                      class="contact-information-icon"
+                      name="time-outline"
+                    ></ion-icon>
+                    <p class="paragraph-text">
+                      <span class="no-wrap">Monday - Friday:</span><br />
+                      7:30 AM - 4:00 PM
+                    </p>
+                  </div>
+                  <div class="contact-information-line">
+                    <ion-icon
+                      class="contact-information-icon"
+                      name="time-outline"
+                    ></ion-icon>
+                    <p class="paragraph-text remove-margin">
+                      <span class="no-wrap">Saturday - Sunday:</span><br />
+                      Closed
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container grid--4col">
+        <div class="logo-col">
+          <a href="#" class="footer-logo-text">
+            <p class="footer-logo-text">Spatulini's Home Childcare</p>
+          </a>
+          <p class="copyright">
+            Copyright &copy; <span class="year">2027</span> by Spatulini's Home
+            Childcare. All rights reserved.
+          </p>
+        </div>
+        <div class="contact-us-col">
+          <p class="footer-heading">Contact Us</p>
+          <address class="contacts">
+            <p class="address">
+              <span class="no-wrap">23 Chase Ln,</span><br />
+              Ithaca, NY 14850
+            </p>
+            <p>
+              <a class="footer-link" href="tel:607-123-4567">607-123-4567</a
+              ><br />
+              <a class="footer-link" href="mailto:dspatulini@gmail.com"
+                >dspatulini@gmail.com</a
+              >
+            </p>
+          </address>
+        </div>
+        <div class="hours-operation-col">
+          <p class="footer-heading">Hours Of Operation</p>
+          <p class="footer-hours-text">
+            <span class="no-wrap">Monday - Friday:</span><br />
+            7:30 AM - 4:00 PM
+          </p>
+          <p class="footer-hours-text">
+            <span class="no-wrap">Saturday - Sunday:</span><br />
+            Closed
+          </p>
+        </div>
+        <div class="licenses-col">
+          <p class="footer-heading">Licenses Or Accrediations</p>
+          <p class="licensing-text">
+            Licensed Home Day Care With The State Of New York<br />License
+            #12345
+          </p>
+          <p class="licensing-text remove-margin">
+            Owned And Operated By Donna Spatulini
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
